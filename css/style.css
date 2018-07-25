@@ -1038,7 +1038,7 @@ path.color1 {
   align-items: center;
   width: 75%;
   margin: auto;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 @media screen and (max-width: 992px) {
 .row {
@@ -1101,6 +1101,7 @@ path.color1 {
 	width: 100%;
 	padding: 0 20px 0 100px;
 	text-align: left;
+  padding-bottom: 50px;
 }
 .timeline>li .timeline-panel:before {
 	right: auto;
