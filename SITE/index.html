@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site perso" />
+    <title>Morgane Meganck</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Kristi|Mr+De+Haviland|Poiret+One|Ruthie|Zeyada" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+  	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type = "text/javascript" src = "assets/js/vue.js"></script>
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+  	<script src="assets/js/jquery.min.js"></script>
+  	<!-- jQuery Cookie -->
+  	<script src="assets/js/jquery.cookie.js"></script>
+  	<script>
+  	if ( $.cookie('styleCookie') === 'style-light.css') {
+  		$('html, body').css('background', '#eeeeee');
+  	} else if ($.cookie('styleCookie') === 'style.css') {
+  		$('html, body').css('background', '#222222');
+  	}
+  	</script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#header").sticky({topSpacing:0});
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container topp" data-aos="fade-up">
+      <header id="headertop" role="banner" class="headertop" data-colorbg="#222222" data-next="yes">
+        <div class="imageleft"></div>
+
+        <div class="container">
+  				<div class="text-wrap-box">
+  					<div class="intro-text">
+  						<h1>Hello, I'm Morgane Meganck <span>from</span> Brussels</h1>
+  						<h2>Junior web developper</a></h2>
+  					</div>
+  				</div>
+  			</div>
+        <a href="#more" class="arrow-container">
+          <div class="arrow"></div>
+          <div class="arrow"></div>
+          <div class="arrow"></div>
+        </a>
+        <div class="imageright"></div>
+    </div>
+    <!-- Fixed navbar -->
+          <nav id="header" class="navbar navbar-fixed">
+              <div id="header-container" class="container navbar-container">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                  </div>
+                  <div id="navbar" class="collapse navbar-collapse">
+                      <ul class=" nav navbar-nav">
+                          <li class="active"><a class="navbar-link" href="#">About</a></li>
+                          <li><a class="navbar-link" href="#about">Portfolio</a></li>
+                          <li><a class="navbar-link" href="#cv">Curriculum Vitae</a></li>
+                      </ul>
+                  </div><!-- /.nav-collapse -->
+              </div><!-- /.container -->
+          </nav><!-- /.navbar -->
+		</header>
+    <main>
+      <div data-aos="fade-down">
+      <div class="text aboutcontainer">
+        <h2 class="about" id="more">Who I am & What I do</h2>
+        <p>Junior web developper belge de 24 ans.</br></br>
+        En formation à Becode Bruxelles depuis Mai 2018</br>
+        Passionnée de code, café, voyage, littérature et un tas d'autres petites choses.
+        </p>
+      </div>
+      <div class="container timeline">
+      <ul class="timeline" >
+        <li class="timeline-event">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Mai 2018 - Présent</p>
+            <h2 class="titles">Becode</h2>
+            <h3 class="titles">Formation professionnelle</h3>
+            <p><strong>Frontend</strong><br>Apprentissage appronfondi sur projets réels. Sitewebs responsives avec HTML5, CSS/SCSS, Frameworks tels que Bootstrap et Materialize, JS/jQuery,...</p>
+            <p><strong>Backend</strong><br> PHP et SQL</p>
+            <p><Strong>Divers</Strong><br />Git/github, lighthouse, ...</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+      </div>
+      <div class="section contact" id="section-contact" data-aos="fade-down">
+      <div class="top-border left"></div>
+      <div class="top-border right"></div>
+      <div class="bottomimgleft"></div>
+      <div class="bottomimgright"></div>
+        <h4>CONTACT ME</h4>
+        <p>Bruxelles<br />morgane.meganck@gmail.com</p>
+      </div>
+    </main>
+    <footer>
+      <div class="copy"></div>
+    </footer>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
